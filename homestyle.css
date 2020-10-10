@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.425)),url(sosl_1.jpg);
+    background-image: url(sosl_1.jpg);
     background-position: left;
     background-size: cover;
     padding-left: 8%;
