@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.425)),url(C:/Users/Vaishnavi/Desktop/photoshop/Shades_of_Solitude/sosl_1.jpg);
+    background-position: left;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding: 2%;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 17px;
+    padding: 12px 0;
+    background: rgba(233, 232, 161, 0.849);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: right;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(stars_1700.jpg);    
+}
+
+.card2{
+    background-color: rgba(83, 205, 214, 0.911);
+}
+
+
+.card:hover{
+    transform: translateY(-10px)
+}
+
+h4{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(158, 22, 29);
+}
+
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 12px;
+}
